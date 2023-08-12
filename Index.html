@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Vitor Ramon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Defina a largura da barra lateral para 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Adicione uma margem esquerda ao "conteúdo da página" que corresponda à largura da barra lateral (120px)*/
+    #main {margin-left: 120px}
+    /* Remova as margens do "conteúdo da página" em telas pequenas */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://lh3.googleusercontent.com/THU9NK77tUqfJsn-3yYz2g9TLFC1Qze4DFD2ZpK_psNrjpDkA9KxRH37nO0MYVqd6afU2VxDeiKzDcy0tJX_qdW6vdjR_9uqChYKDoFXa_8sNimEgj_5TyfYLijSoJco502BnB8jiaJNDAbYT0SVwkPpJiKV22HRH6FsIgfcwe_79Gu5A8Cwkeu_Ic5BILOsc6vtY0H1J6ieY4Q6SWqH26mmI_92DEKHqpUQtNRpR53jteWr5VeUB4ZZ7ONq9lI9ZW1vatNwgSa4QVfBOdwv1IMtpKK8s2QJRE46i_3eGZINPfQ8eV0IUQHfYBHyy7o6cFWLDKD_Al0K830hVaFrLRPfcXMJfkcw3ONQAFZIW8d0IXsujDWoSB946Ks25pkv-y2dDHtILAnxH_SKGKLoWH3B_z_m2q7l3R2jfTyEKTz-Uj--3TE33urtITnlErtuTPsqOdrowvlZJ_X5KcrHAlKbHjF88qYr31AbJbQFKbXltnB6XwpeiJ7lAmVzM6PJ4K66a956hWFlOImK1njOKCe-W-emGEJr9llVcdfEHJpSO8JGuDJ37cLiWwJhirWlRatbOeuFy7kX0jU5B5V3-_M6MJ9uLaNpIlRRraR2h1RWf6mBXlC-8AObaq9Gz_AUGpNGeFpk47g7ayzAR52AdbjSoY9-ZrWXkCjtC1NfZt9nmn5CJaYm2B03ZONe0RK1vMEiaMdlam9Xzp4HD3t3t9qpdmqH_mB4mVVW6DBIzv0_w9iLTRCKNB8Jz31nT12IHBpGPm0uDb6kym6P9N65-fQYk-V4AstVRHZez4kXtWNRzxhA9k6N5jy27h73aXbFr_huVU9JW3hhDvUvYi9aQ1MDV36Bb5NVdieQTLONEx0JAWTDB8Kcml5Iv2tX8vmi_2I8IVCw3T7hlJV5v0mNqZwNYrMoo5lGPlB0STEY8-0f0Q=w122-h136-no?authuser=0" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Vitor Ramon</h1>
+    <p>Web Developer</p>
+    <img src="https://lh3.googleusercontent.com/2xLybVzevePsl1JRxBlPnffEkLqrlALd192YXmQr0pBYY2Qw77V6i_rq1hqEXuXpoe1FYEZZCdVXoLreAVQn7ahddXfa7N5GFTw6irCXg9oSEnYUvsoiO3gMhKxgh7t-zgY1dFOOpCh7hPxxZNodVFZxrkOzD_o9FQ1iWxIGF3pLXf_Qkhql3FHEc5bf6gIaKLXYJOtaCAI67gSqeuoX_r9z7qWkSAsIsffVMWT8CYRjLEFGJg9lP5EjRmacqlysZcLcrMByCgziIj6uLIhZAtdBCeKVMpGLN0MJ2s4uM3QQIs66We-O6AFGyYQq-GNVFL0vEpk26xqhMbUXvudjdttHeVjArwGr53nhTxu_SdXtyTrhh-0gbeCgUcxXIObWl1pMsGLuvxsfOf6NWOpwArv90r8jJKX_QpyS7Su691yhnJKqb8XcE4pkwE64zJTJUoggcD0vo6SRrEky251Fs8HYsESykw9OnXgVn5iZ4N13Px-41rr_cWKdwrTtewWW-0-AAEVA5QhUHT6vpnR60BD4d9Bdr84Rrp-pYscwzHEGXysob0Y4lys-oCwLzpy0orv1KfkCjcqTT_89RitGUJTbQ_wgCdy8yonrmSe75Fj7Zx04ndiAz_i1RUG935-dF-3q_PylWCRgh7EjfcGnPLWQvX8GNiJwhlB0cej1GpJoCzrRXzwPhxMAvkXpKLTru8dbBpahHtGsYTk13QgAI4SxRf3qswQkzDo0yU-6NQmPFF__AFrX1TwcOwJpQAWFoNaelXIeCh86WAzKKkKF8oMNnHIvAedhLhIdckPyYW0Xr6ZTBuRcfYfEsmBlDIFslJoo6W5BtPKZXvZxJ5T_LkxYfq9sDtpiPzbPKoyza4uZVEnEh0oGz3zNXg8yWFa8xpO7ml2Jobm9jvX19Yd97EEpC_HpgAH9pqcf49xb7nhoJg=w697-h929-no?authuser=0" alt="boy" class="w3-image" width="500" height="600">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Vitor</h2>
+    <hr style="width:200px" class="w3-opacity">
+<p>Vitor é um estudante de programação apaixonado pela criação de soluções tecnológicas inovadoras. Nascido em Maraba-PA, ele começou a explorar sua paixão pela tecnologia desde muito jovem, experimentando diferentes linguagens de programação e participando de eventos de tecnologia em sua comunidade.
+Atualmente, Vitor está cursando Analise e desenvolvimento de sistemas na Uniasselvi, onde tem a oportunidade de aprimorar suas habilidades em programação e tecnologia. Ele é dedicado em aprender novas habilidades e conceitos, e gosta de trabalhar em projetos desafiadores que possam ampliar seus conhecimentos.
+Ao longo de sua jornada de aprendizado em programação, Vitor já participou de diversos projetos de tecnologia. Ele trabalhou na SoftHouse Ecocentauro Sistemas como Gerente de Suporte, onde teve a oportunidade de trabalhar em equipe e aprender sobre programação orientada a objetos. Ele também desenvolveu um aplicativo para facilitar o controle de atendimento diarios, o que lhe deu a chance de explorar novas tecnologias e ferramentas.
+Além de suas habilidades técnicas, Vitor é uma pessoa comunicativa e gosta de trabalhar em equipe. Ele acredita que a colaboração e a troca de ideias são fundamentais para o sucesso de um projeto de tecnologia.
+No futuro, Vitor espera continuar aprendendo e desenvolvendo novas soluções tecnológicas, sempre em busca de novos desafios e oportunidades. Ele está animado para ver o que o futuro reserva para ele na indústria de tecnologia.</p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Html</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Javascript</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">css</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resumo
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p><br>
+    
+    <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+        <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
+        <img src="https://www.w3schools.com/w3images/sailboat.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
+        <img src="https://www.w3schools.com/w3images/chef.jpg" style="width:100%">
+        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+        <img src="https://www.w3schools.com/w3images/p6.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Marabá-PA</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Whatsapp: <a href="https://wa.me/5594991438192">(94)99143-8192</a></p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: vitorramon23@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+ <p class="w3-small"></p>
+ <!-- End footer -->
+</footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
